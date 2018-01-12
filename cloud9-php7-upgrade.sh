@@ -38,6 +38,7 @@ then
     sudo apt-get install php7.0-mbstring -y
     sudo apt-get install php7.0-zip -y
     sudo apt-get install php7.0-mysql -y
+    sudo apt-get install php7.0-curl -y
     sudo service apache2 restart
     echo "Congragulations you have upgraded your dev box to PHP 7"
 fi
